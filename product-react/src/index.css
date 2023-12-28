@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+button{
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+label{
+  display: block;
+  margin-bottom: 1rem;
+}
+
+label span{
+  font-weight: bold;
+}
+
+input{
+  padding: 5px;
+  width: 100%;
+}
+
+input:focus{
+  outline: none;
+}
